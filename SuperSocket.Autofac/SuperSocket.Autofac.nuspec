@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SuperSocket.Autofac</id>
+    <version>$version$</version>
+    <title>SuperSocket.Autofac</title>
+    <authors>bushadam</authors>
+    <owners>bushadam</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/bushadam/SuperSocket.Autofac</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SuperSocket.Autofac</description>
+    <releaseNotes>SuperSocket.Autofac</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>SuperSocket, Autofac</tags>
+	<dependencies>
+      <dependency id="log4net" version="2.0.3" />
+	  <dependency id="Autofac" version="4.2.0" />
+	  <dependency id="SuperSocket" version="1.6.6.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration"  />
+    </frameworkAssemblies>
+  </metadata>
+</package>
